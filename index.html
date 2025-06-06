@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application d'Inscription</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+    <div class="decoration"></div>
+    <div class="decoration"></div>
+    <div class="decoration"></div>
+    
+    <div class="container" id="container">
+        <div id="inscription-form">
+            <h2>INSCRIPTION</h2>
+            <div class="form-group">
+                <label for="username">Nom d'utilisateur</label>
+                <div class="input-wrapper">
+                    <input type="text" id="username" required placeholder="Entrez votre nom d'utilisateur">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email">Adresse email</label>
+                <div class="input-wrapper">
+                    <input type="email" id="email" required placeholder="Entrez votre adresse email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="password">Mot de passe</label>
+                <div class="input-wrapper">
+                    <input type="password" id="password" required placeholder="Entrez votre mot de passe">
+                </div>
+                <p id="password-error" class="error-message">Le mot de passe doit contenir au moins 8 caractères, une majuscule, une minuscule et un chiffre.</p>
+            </div>
+            <button class="primary" onclick="register()">S'inscrire</button>
+             <span>create by germin</span>
+        </div>
+        <div id="user-info" class="hidden">
+            <p class="success">✨ Connecté avec succès</p>
+            <h2>Profil utilisateur</h2>
+            <div class="user-info">
+                <p><strong>👤 Nom d'utilisateur :</strong> <span id="display-username"></span></p>
+                <p><strong>📧 Email :</strong> <span id="display-email"></span></p>
+                <p><strong>🔒 Mot de passe :</strong> <span id="display-password" class="hidden">********</span>
+                    <button id="toggle-password" class="toggle-password">👁️ Afficher</button>
+                </p>
+            </div>
+            <button class="secondary" onclick="logout()">Se déconnecter</button>
+            <p id="success-message" class="success-message">🎉 Inscription réussie avec succès !</p>
+        </div>
+    </div>
+    <script src="./public/js/script.js" defer></script>
+</body>
+</html>
