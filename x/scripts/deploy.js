@@ -30,6 +30,7 @@ async function deploy() {
     siteUrl = `https://${user}.github.io/${repo}/`;
   }
   // Déployer avec gh-pages
+  
   await execAsync('gh-pages -d dist');
 
   console.log('Déploiement terminé !');
