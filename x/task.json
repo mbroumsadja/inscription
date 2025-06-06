@@ -1,17 +1,17 @@
 [
   {
-    "title": "Développer la navbar de",
-    "description": "Navigation responsive",
-    "label": "todo"
+    "title": "cree un container pour le formulaire",
+    "description": "le placer au centre la page pour la page d'inscription, coe pour les information personnelles 15min",
+    "label": "Urgent"
   },
   {
-    "title": "Ajouter le CSS global",
-    "description": "Fichier style.css",
-    "label": "in-progress"
+    "title": "implementer le css",
+    "description": "faire en sorte que le formulaire soit responsive et s'adapte aux mobiles, police poppins, couleur #000 texte , green corecte, red  mauvais , gainsbain l'arriere plan 30min",
+    "label": "Urgent"
   },
   {
-    "title": "Corriger les bugs JS",
-    "description": "Script de gestion du formulaire",
-    "label": "done"
+    "title": "la page du js",
+    "description": "recupere les dans la cache un cookie avec le nom id-inscription, si il n'existe pas, creer un cookie avec le nom id-inscription , ajouter les informations nom , eamil , password en hidden qu'on peut voir en cliquant pour retire le hidden",
+    "label": "Normal"
   }
 ]

@@ -22,7 +22,7 @@ async function deploy() {
   // Récupérer l'URL du dépôt distant
   const { stdout: remoteUrl } = await execAsync('git config --get remote.origin.url');
 
-  let match = remoteUrl.trim().match(github.com[:\/](.+?)\/(.+?)(.git)?$/);
+ let match = remoteUrl.trim().match(/^(?:https?:\/\/github\.com\/|git@github\.com:)([^\/]+)\/([^\/]+?)(?:\.git)?$/);
   let siteUrl = '';
   if (match) {
     const user = match[1];
