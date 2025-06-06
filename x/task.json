@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Développer la navbar de",
+    "description": "Navigation responsive",
+    "label": "todo"
+  },
+  {
+    "title": "Ajouter le CSS global",
+    "description": "Fichier style.css",
+    "label": "in-progress"
+  },
+  {
+    "title": "Corriger les bugs JS",
+    "description": "Script de gestion du formulaire",
+    "label": "done"
+  }
+]

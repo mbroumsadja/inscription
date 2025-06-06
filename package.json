@@ -1,0 +1,21 @@
+{
+  "name": "inscription",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "inscription a été généré par Germin",
+  "scripts": {
+    "dev": "vite --host",
+    "start": "live-server --port=3000 --host=localhost",
+    "build": "node ./x/scripts/build.js",
+    "preview": "vite preview",
+    "deploy": "node ./x/scripts/deploy.js"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0",
+    "gh-pages": "^6.0.0",
+    "ora": "^5.4.1"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
